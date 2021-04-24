@@ -1,0 +1,41 @@
+{
+  "name": "exposure.vid",
+  "version": "1.0.0",
+  "description": "Experimental video chat app with NodeJS and WebRTC",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Preshonyee/Exposure.vid.git"
+  },
+  "keywords": [
+    "nodejs",
+    "webrtc",
+    "socket.io",
+    "video",
+    "chat"
+  ],
+  "author": "preshonyee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Preshonyee/Exposure.vid/issues"
+  },
+  "homepage": "https://github.com/Preshonyee/Exposure.vid#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "socket.io": "^4.0.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0",
+    "nodemon": "^2.0.7"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
